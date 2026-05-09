@@ -1,0 +1,14 @@
+# Игнорируем файл с реальными паролями
+.env
+
+# Игнорируем временные файлы Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Игнорируем кэш Python
+__pycache__/
+*.py[cod]
+
+# Игнорируем тяжелые файлы данных 
+*.csv
+*.xlsx
